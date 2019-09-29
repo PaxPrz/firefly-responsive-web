@@ -1,7 +1,7 @@
 .main-wrapper{
     width: 100%;
     /* background-color: yellow; */
-    height: 1500px;
+    /* height: 1500px; */
 }
 
 .content-wrapper{
@@ -50,7 +50,7 @@
 
 .hotline{
     float: right;
-    font-size: 10px;
+    font-size: 12px;
     width: auto;
     line-height: 40px;
     margin-right: 15px;
@@ -89,7 +89,7 @@
     float: left;
     list-style: none;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .header .bottom .right ul li a{
@@ -314,6 +314,7 @@
 
 .career p{
     padding-left: 15px;
+    color: #6b7c93;
 }
 
 .career ul{
@@ -378,7 +379,7 @@
     height: 1059px;
     /* background-color: yellow; */
     margin-top: 20px;
-    background-image: url('../images/backgrounds/contact-bubbles.png');
+    background-image: url('../images/backgrounds/contact-bubbles-cut.png');
     background-repeat: no-repeat;
     background-position: center;
 }
