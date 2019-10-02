@@ -71,13 +71,19 @@
 }
 
 .firefly-logo{
-    width: 200px;
+    /* width: 100px; */
     line-height: 70px;
     text-align: center;
     font-size: 26px;
     float:left;
     font-family: "Open Sans", 'Gill Sans';
     /* background-color: cadetblue; */
+}
+
+.logopos{
+    /* margin-right: 10px; */
+    margin-left: 10px;
+    margin-top: 20px;
 }
 
 .header .bottom .right{
@@ -132,6 +138,10 @@
     .firefly-logo{
         width: auto;
         margin: 0 0 0 20px;
+    }
+    .logopos{
+        margin: 0px;
+        padding: 0px;
     }
     .header .bottom .right{
         width: auto;
