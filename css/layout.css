@@ -288,11 +288,31 @@
     /* .customer-right ul{
         width: 100%;
     }
+    */
+    .customer-right ul li{
+        padding: 0px;
+    }
     .customer-right ul li a img{
         margin:0px;
         padding: 0px;
-        /* width: 80%; */
-    /*} */
+        width: 80%;
+    }
+}
+
+@media(max-width: 570px){
+    .customer-right ul li{
+        padding: 0 10px;
+    }
+    .customer-right ul li a img{
+        padding: 0 px;
+        width: 60px;
+    }
+}
+
+@media(max-width: 400px){
+    .customer-right ul li a img{
+        width: 100px;
+    }
 }
 
 .service{
@@ -308,6 +328,35 @@
     float:left;
     position: absolute;
 }
+
+
+/* carousel */
+.carousel-main{
+    position: absolute;
+    z-index: 500;
+    margin-left: -584px;
+    margin-top: 44px;
+}
+
+.container{
+    overflow: hidden;
+    /* width: 90%; */
+    /* background-color: yellow; */
+    float:left;
+    margin-left: 50px;
+}
+
+.wrapper{
+    position: relative;
+    background-color: gray;
+    left: 0px;
+}
+
+.activeStar{
+    text-transform: capitalize;
+}
+/* carousel end */
+
 
 .service-container{
     float: right;
@@ -362,6 +411,10 @@
     .service-container{
         width: 50%;
     }
+    .carousel-main{
+        margin-top: 47px;
+        margin-left: -380px;
+    }
 }
 
 @media (max-width: 1200px){
@@ -373,6 +426,10 @@
     }
     .service-container{
         width: 70%;
+    }
+    .carousel-main{
+        width: 0px;
+        display:none;
     }
 }
 
